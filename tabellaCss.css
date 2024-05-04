@@ -1,0 +1,17 @@
+table { border: 1px ; 
+    width: 50%; } 
+table caption { color: #263238; 
+    font-weight:
+bold; font-size: 18px; margin-bottom: 10px; } 
+thead { background-color: ; color:
+white; font-weight: 700; } 
+tbody
+ { background-color: #eceff1;
+background-color: #b0bec5; }
+ tbody { font-weight: 800;
+background-color: #78909c; }
+ tbody  { color: #003300;
+background-color: blue } 
+tbody td { color: #7f0000;
+background-color: red } 
+td { text-align: right; }
