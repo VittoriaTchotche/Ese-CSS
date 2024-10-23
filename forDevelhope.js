@@ -1,4 +1,5 @@
 
+
 /*In questo esercizio dato un array di studenti:
 Utilizza forEach per stampare i nomi degli studenti.
 Utilizza find per trovare uno studente con un voto superiore a 90.
@@ -17,24 +18,22 @@ const studenti = [
   ];
   
 
-  function trovaStudenti1(studenti) {
+  function trovaStudentiA(studenti) {
     return studenti.forEach(studente => console.log(studente.nome))
   }
 
-   function trovaStudenti2(studenti) {
-  return studenti.find((a)=> a.age > 90)}
+   function trovaStudentiB(studenti) {
+  return studenti.find((a)=> a.voto > 90)}
 
-  function trovaStudenti3(studenti) {
-    return studenti.reduce((acc, cur) => acc + cur.lenght, 0 / studenti.lenght)
+  function trovaStudentiC(studenti) {
+    return studenti.reduce((acc, cur) => (acc + cur.voto, 0) / studenti.lenght)
   }
 
   
-  function trovaStudenti4(studenti) {
-    return studenti.map((a)=> a.nome.toUpperCase)
+  function trovaStudentiD(studenti) {
+    return studenti.map((a)=> a.nome.toUpperCase())
   }
 
-  function trovaStudenti5(studenti) {
+  function trovaStudentiE(studenti) {
     return studenti.filter(studente => studente.voto > 85)
   }
-
-  console.log(trovaStudenti1(studenti))
