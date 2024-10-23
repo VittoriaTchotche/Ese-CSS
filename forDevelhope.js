@@ -24,15 +24,17 @@ const studenti = [
    function trovaStudenti2(studenti) {
   return studenti.find((a)=> a.age > 90)}
 
-  function trovaStudenti2(studenti) {
+  function trovaStudenti3(studenti) {
     return studenti.reduce((acc, cur) => acc + cur.lenght, 0 / studenti.lenght)
   }
 
   
-  function trovaStudenti2(studenti) {
+  function trovaStudenti4(studenti) {
     return studenti.map((a)=> a.nome.toUpperCase)
   }
 
-  function trovaStudenti2(studenti) {
+  function trovaStudenti5(studenti) {
     return studenti.filter(studente => studente.voto > 85)
   }
+
+  console.log(trovaStudenti1(studenti))
